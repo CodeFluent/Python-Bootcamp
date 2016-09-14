@@ -4,4 +4,4 @@ In the Computer Science discipline, coding workshops are considered especially b
 
 These are their stories.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/4R-YsjMxKzc" frameborder="0" allowfullscreen></iframe>
+[![Alt text for your video](http://img.youtube.com/vi/4R-YsjMxKzc/0.jpg)](https://www.youtube.com/watch?v=4R-YsjMxKzc)
