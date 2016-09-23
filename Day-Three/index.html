@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!-- If this is your first time learning html, then you should go ahead and learn the basics from whatever source you choose. Almost any program will have some interface with it. -->
+
+<html>
+    <head>
+        <!-- Lmao changed again from previous commit -->
+        <title>Hello PantherHackers</title>
+
+        <link href="style.css" rel="stylesheet"> <!--Tells me where my stylesheet is.-->
+        <!-- If you want, you can also save style.css to another folder, but you'll have to change the tag. -->
+        <!-- Like This: -->
+        <!-- <link href="/STYLEFOLDERWHEREEVERSTYLE.CSSIS/style.css" -->
+
+        <!-- Our Jquery -->
+        <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+
+        <!-- CDN Method -->
+        <!-- CDNs, or Content Delivery Networks, are servers where people can host certain files in different places. You want this so that content, whether it be video, audio, or code, will reach a person much faster. -->
+<!--
+        I got my CDN from here (https://cdnjs.com/libraries/jquery/#).
+        You can replace the src tag with the url of your asset. Make sure it is a direct url. -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </head>
+
+<body>
+    <!-- Some Text -->
+    <!-- Checkout my CSS tho, got comments there. -->
+    <h1>Header 1</h1>
+    <p>WHAT THE HECK IS THIS</p>
+
+    <!-- HTML button -->
+    <button>Hi</button>
+
+    <!-- HTML is so cool that you can add script from almost any programming language. However, only javascript allows for <script> tags. You will have to use another type of tag and maybe import a library to use another programming language. -->
+    <!-- Notice our comment symbols change inside the <script> tags, that's because it functions as Javascript inside the browser! -->
+
+    <script>
+
+      /* LOOK AT THE JQUERY DOCUMENTATION. Documentation and API just refers to a set of functions that you can look at to see what you can do. It's basically a dictionary. Here's the link to Jquery's:
+
+      http://api.jquery.com/ */
+
+      /* BTW, javascript, java, and jquery are all separate things. Javascript is what browsers can recognize automatically, Jquery is a library we can use to do specific things with our code. Read up on the history with a quick Google search. */
+
+    $(document).ready(function() { // this line tells us that once everything is loaded, do this jquery function. It is good practice to use this function when using jquery.
+        $("button").click(function (event) { // that button we made in html? Go ahead and do this function if it gets clicked on.
+            alert("Thanks for visiting!"); // send a popup alert thanking the user for using this wonderful site.
+            console.log("Button Clicked");
+        });
+
+    });
+    </script>
+
+</body>
+
+</html>

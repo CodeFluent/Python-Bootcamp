@@ -3,7 +3,7 @@
 # https://github.com/BunsenMcDubbs/tslworkshop
 
 '''
- To run this file you must need flask installed. Run python hello.py to execute.
+ To run this file you must have flask installed. Run python hello.py to execute.
 '''
 # import flask
 from flask import Flask

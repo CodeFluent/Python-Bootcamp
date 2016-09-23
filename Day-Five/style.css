@@ -1,0 +1,14 @@
+
+
+/* CSS STYLESHEET */
+
+/* Open index.html with this. */
+
+/* You can see I have h1 as what is called a 'selector'. Any h1 element will have these particular stlyes with it. */
+h1 {
+    font-family: Garamond; /* Garamond is awesome. You can put Times New Roman too. */
+    color: red;
+}
+input[type=text] {
+    width: 10%
+}
